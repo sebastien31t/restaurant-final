@@ -1,0 +1,185 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+// Variables
+
+$colorLightWhite: rgb(223, 223, 223);
+$vert: rgb(74, 207, 74);
+$vert-bg: rgb(136, 156, 136);
+$bandeau: rgb(46, 46, 46);
+$copy: rgb(52, 66, 55);
+
+.min-height-150{
+    min-height: 150px;
+}
+.btn-outline-success{
+    color: $vert;
+    border-radius: 0;
+    border: 1px solid $vert;
+}
+.btn-outline-success:hover{
+    background-color: $vert;
+    border: 1px solid $vert;
+
+}
+
+.btn-max{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+// X-Small devices 
+@media (min-width: 1px) {
+    body{
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        h1{font-size: 2em; text-align: center;}
+        
+        margin: 0;
+        header{
+            min-height: 300px;
+            background-color: $bandeau;
+            color: $colorLightWhite;
+            .encadre{
+                border: 2px solid $vert;
+                margin: 5px;
+                min-width: 300px;
+                margin: 50px;
+                h1{
+                    text-align: center;
+                    font-size: 4em;
+                    margin: 25px;
+                }
+                hr{
+                    margin: 20px;
+                }
+                h2{
+                    text-align: center;
+                    font-family: 'Ms Madi', cursive;
+                    font-size: 2em;
+                }
+            }
+        }
+        .margin-top{
+            margin-top: 50px;
+        }
+        main{
+            article{
+                border: 2px solid $vert;
+                padding: 10px;
+                h4{
+                    color: grey;
+                    text-decoration: underline;
+                    font-size: 1.5em;
+                }
+            }
+        }
+        .text-align-center{
+            text-align: center;
+        }
+        footer{
+            background-color: $bandeau;
+            .bg-copy{
+                background-color: $copy;
+                color: white;
+            }
+            .bg-footer{
+                address{
+                    text-align: center;
+                    border: 2px solid $vert;
+                    padding: 10px;
+                    margin: 20px;
+                    line-height: auto;
+                    color: white;
+                    a{
+                        color: white;
+                        text-decoration: none;
+                    }
+                }
+                #form-mail{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+// Small devices 
+@media (min-width: 767.98px) { }
+
+// Medium devices 
+@media (min-width: 991.98px) { 
+    body{
+        font-size: 15px;
+        margin: 0;
+        header{
+            min-height: 350px;
+            background-color: $bandeau;
+            color: $colorLightWhite;
+            section{
+                height: 300px;
+                 .encadre{
+                    border: 2px solid $vert;
+                    margin: 5px;
+                    min-width: 400px;
+                    h1{
+                        text-align: center;
+                        font-size: 4em;
+                        margin: 25px;
+                    }
+                    hr{
+                        margin: 20px;
+                    }
+                    h2{
+                        text-align: center;
+                        font-family: 'Ms Madi', cursive;
+                        font-size: 2em;
+                    }
+                }
+            }
+            #cookies{
+                height: 100px;
+                background-color: $vert-bg;
+                #cookies-content{
+                    height: 100px;
+                }
+            }
+        }
+        aside{
+            border: 2px solid $vert;
+        }
+        .margin-top{
+            margin-top: 100px;
+        }
+        a{text-decoration: none ;color: $vert;}
+        a:hover{color: $vert-bg;}
+        main{
+            .encadre{
+                border: 2px solid $vert;
+            }
+            .no-margin{
+                margin: auto 0;
+                .no-padding{
+                    padding: 0;
+                }
+            }
+        }
+        footer{
+            .bg-copy{
+                background-color: $copy;
+                color: white;
+            }
+        }
+        
+    }
+}
+// Large devices 
+@media (min-width: 1199.98px) { }
+
+// X-Large devices
+@media (min-width: 1399.98px) {
+  
+}

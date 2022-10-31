@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto:wght@100;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.min-height-150 {
+  min-height: 150px;
+}
+
+.btn-outline-success {
+  color: rgb(74, 207, 74);
+  border-radius: 0;
+  border: 1px solid rgb(74, 207, 74);
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(74, 207, 74);
+  border: 1px solid rgb(74, 207, 74);
+}
+
+.btn-max {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    margin: 0;
+  }
+  body h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+  body header {
+    min-height: 300px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(223, 223, 223);
+  }
+  body header .encadre {
+    border: 2px solid rgb(74, 207, 74);
+    margin: 5px;
+    min-width: 300px;
+    margin: 50px;
+  }
+  body header .encadre h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 25px;
+  }
+  body header .encadre hr {
+    margin: 20px;
+  }
+  body header .encadre h2 {
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+    font-size: 2em;
+  }
+  body .margin-top {
+    margin-top: 50px;
+  }
+  body main article {
+    border: 2px solid rgb(74, 207, 74);
+    padding: 10px;
+  }
+  body main article h4 {
+    color: grey;
+    text-decoration: underline;
+    font-size: 1.5em;
+  }
+  body .text-align-center {
+    text-align: center;
+  }
+  body footer {
+    background-color: rgb(46, 46, 46);
+  }
+  body footer .bg-copy {
+    background-color: rgb(52, 66, 55);
+    color: white;
+  }
+  body footer .bg-footer address {
+    text-align: center;
+    border: 2px solid rgb(74, 207, 74);
+    padding: 10px;
+    margin: 20px;
+    line-height: auto;
+    color: white;
+  }
+  body footer .bg-footer address a {
+    color: white;
+    text-decoration: none;
+  }
+  body footer .bg-footer #form-mail {
+    font-size: 1em;
+  }
+}
+@media (min-width: 991.98px) {
+  body {
+    font-size: 15px;
+    margin: 0;
+  }
+  body header {
+    min-height: 350px;
+    background-color: rgb(46, 46, 46);
+    color: rgb(223, 223, 223);
+  }
+  body header section {
+    height: 300px;
+  }
+  body header section .encadre {
+    border: 2px solid rgb(74, 207, 74);
+    margin: 5px;
+    min-width: 400px;
+  }
+  body header section .encadre h1 {
+    text-align: center;
+    font-size: 4em;
+    margin: 25px;
+  }
+  body header section .encadre hr {
+    margin: 20px;
+  }
+  body header section .encadre h2 {
+    text-align: center;
+    font-family: "Ms Madi", cursive;
+    font-size: 2em;
+  }
+  body header #cookies {
+    height: 100px;
+    background-color: rgb(136, 156, 136);
+  }
+  body header #cookies #cookies-content {
+    height: 100px;
+  }
+  body aside {
+    border: 2px solid rgb(74, 207, 74);
+  }
+  body .margin-top {
+    margin-top: 100px;
+  }
+  body a {
+    text-decoration: none;
+    color: rgb(74, 207, 74);
+  }
+  body a:hover {
+    color: rgb(136, 156, 136);
+  }
+  body main .encadre {
+    border: 2px solid rgb(74, 207, 74);
+  }
+  body main .no-margin {
+    margin: auto 0;
+  }
+  body main .no-margin .no-padding {
+    padding: 0;
+  }
+  body footer .bg-copy {
+    background-color: rgb(52, 66, 55);
+    color: white;
+  }
+}/*# sourceMappingURL=style.css.map */
